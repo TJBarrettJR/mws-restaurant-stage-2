@@ -20,5 +20,7 @@ module.exports = {
   // models: {
   //   connection: 'someMongodbServer'
   // }
-
+  
+  // Using port 3000 for CodeAnywhere server
+  port: 3000
 };

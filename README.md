@@ -1,4 +1,15 @@
 # Local Development API Server
+## Changes
+### Using forever.js to run the server
+``` 
+To start server use
+  forever start server.js
+To stop server use    
+  forever stop server.js
+  
+curl "https://mws-restaurant-stage-2-tjbarre1.codeanyapp.com/restaurants"
+curl "https://mws-restaurant-stage-2-tjbarre1.codeanyapp.com/restaurants/{3}"
+```
 ## Usage
 #### Get Restaurants
 ```
